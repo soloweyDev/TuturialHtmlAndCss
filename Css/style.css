@@ -1,8 +1,12 @@
+body {
+	background-color: #f8f8f8;
+}
+
 h3 {
 	color: black;
 	font-size: 18px;
 	font-weight: 400;
-	background-color: #eaeaea
+	background-color: #eaeaea;
 }
 /*
 #heading {
@@ -15,14 +19,18 @@ h3 {
 	background-color: #ddd;
 }*/
 
-short {
+.short {
 	color: #707070;
 	font-size: 14px;
 	font-style: italic;
-	line-height: 16px
+	line-height: 16px;
 }
 
-long {
+.short:first-letter {
+	font-size: 20;
+}
+
+.long {
 	color: #484343;
 	font-size: 16px;
 	font-weight: 400;
@@ -30,12 +38,22 @@ long {
 	text-align: left;
 }
 
-.blue {
-	color: blue;
-	background-image: url(../Image/prazdniki.png);
-	background-repeat: no-repeat;
-	background-position: 10px 20px;
-	/*background: url(../Image/prazdniki.png) no-repeat 10px 20px;*/
+.long:first-letter {
+	font-size: 22;
+}
+
+.header {
+	font-size: 24px;
+	height: 120px;
+}
+
+.content {
+	font-size: 16px;
+}
+
+.footer {
+	font-size: 14px;
+	vertical-align: bottom;
 }
 
 .list {
@@ -47,36 +65,73 @@ long {
 	text-transform: uppercase;
 }
 
+.menu:hover {
+	color: royalblue;
+}
+
+.menu:active {
+	color: dodgerblue ;
+}
+
 .mail {
 	width: 200px;
 	height: 40px;
 	color: black;
-	font-size: 16px
+	font-size: 16px;
 }
 
 .image {
 	width: 610px;
 	height: 410px;
-	background-color: #eee
+	background-color: #eee;
+}
+
+.textinput {
+	text-transform: capitalize;
+}
+
+.table {
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+.table td {
+	border: 1px solid #000;
+	text-align: center;
+	width: 100px;
+	height: 20px;
 }
 
 textarea {
 	width: 400px;
 	height: 200px;
 	color: black;
-	font-size: 16px
+	font-size: 16px;
+	text-transform: capitalize;
 }
 
 img[alt="скрин программы"] {
 	width: 600px;
 	height: 400px;
-	margin: 5px 5px
+	margin: 5px 5px;
 }
 
 img[alt="скрин"] {
 	width: 150px;
 	height: 100px;
-	position: bottom
+}
+
+img[alt="logo"] {
+	position: absolute;
+	right: 10px;
+}
+
+.blue {
+	color: blue;
+	background-image: url(../Image/prazdniki.png);
+	background-repeat: no-repeat;
+	background-position: 10px 20px;
+	/*background: url(../Image/prazdniki.png) no-repeat 10px 20px;*/
 }
 
 /*
@@ -84,6 +139,3 @@ p {
 	font-size: 16px;
 }
 */
-body {
-	background-color: #f8f8f8
-}

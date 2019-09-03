@@ -5,30 +5,35 @@
 	<link rel="stylesheet" href="Css/style.css">
 </head>
 <body>
-	<a class="menu" class="menu" href="index.html">Главную</a>&nbsp;&nbsp;
-	<a class="menu" href="catalog.html">Каталог</a>&nbsp;&nbsp;
-	<a class="menu" href="contacts.html">Контакты</a>&nbsp;&nbsp;
-	<a class="menu" href="#">Регистрация</a>
+	<div class="header">
+		<a class="menu" href="index.html">Главную</a>&nbsp;&nbsp;
+		<a class="menu" href="catalog.html">Каталог</a>&nbsp;&nbsp;
+		<a class="menu" href="contacts.html">Контакты</a>&nbsp;&nbsp;
+		<a class="menu" href="#">Регистрация</a>
+		<img src="Image/adi.gif" alt="logo">
+	</div>
 	<hr>
-	
-	<h1>Регистрация</h1>
-	<form action="#">
-		Ваше имя <input type="text" placeholder="Ваше имя"><br>
-		Пароль <input type="password" placeholder="Пароль"><br>
-		Ваш пол<br>
-		M <input type="radio" name="pol"><br>
-		Ж <input type="radio" name="pol"><br>
-		Ваши увлечения<br>
-		Спорт <input type="checkbox"><br>
-		IT <input type="checkbox"><br>
-		Музыка <input type="checkbox"><br>
-		<input type="submit" value="Отправить данные">
-		<input type="reset" value="Отмена">
-	</form>
 
-	<br>
-	<br>
-	<hr>
-	<p>&copy;2019&nbsp;АДИ Студия. Все права защищены.</p>
+	<div class="content">
+		<h1>Регистрация</h1>
+		<form action="#">
+			Ваше имя <input class="textinput" type="text" placeholder="Ваше имя"><br>
+			Пароль <input type="password" placeholder="Пароль"><br>
+			Ваш пол<br>
+			M <input type="radio" name="pol"><br>
+			Ж <input type="radio" name="pol"><br>
+			Ваши увлечения<br>
+			Спорт <input type="checkbox"><br>
+			IT <input type="checkbox"><br>
+			Музыка <input type="checkbox"><br>
+			<input type="submit" value="Отправить данные">
+			<input type="reset" value="Отмена">
+		</form>
+	</div>
+
+	<div class="footer">
+		<hr>
+		<p>&copy;2019&nbsp;АДИ Студия. Все права защищены.</p>
+	</div>
 </body>
 </html>
