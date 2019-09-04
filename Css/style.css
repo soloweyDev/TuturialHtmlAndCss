@@ -102,6 +102,10 @@ h3 {
 	height: 20px;
 }
 
+.table tr:nth-child(1) td:nth-child(3) {
+	height: 60px;
+}
+
 textarea {
 	width: 400px;
 	height: 200px;
