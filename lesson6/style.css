@@ -54,6 +54,7 @@ body {
 
 .menu-link:hover {
 	color: #212121;
+	border-bottom: 3px solid #8c8c8c;
 }
 
 .menu-link-active {
@@ -61,6 +62,24 @@ body {
 	font-weight: 700;
 	letter-spacing: 1.4px;
 	border-bottom: 3px solid #212121;
+}
+
+.menu-link-img {
+	color: #8c8c8c;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 7px 13px;
+}
+
+.menu-link-img:hover {
+	color: #212121;
+	border-bottom: 3px solid #8c8c8c;
+}
+
+.menu-img {
+	margin-top: -5px;
 }
 
 .slider-text {
@@ -110,7 +129,11 @@ body {
 }
 
 .button:hover {
-	color: #c7c7c7;
+	background: #ffffff url('img/arrow.svg') no-repeat 173px 16px;
+}
+
+.button:active {
+	box-shadow: none;
 }
 
 .button-arrow {
