@@ -20,14 +20,6 @@ body {
     background-color: darkcyan;
 }
 
-.menu li {
-    list-style-type: none;
-    width: 100px;
-    height: 50px;
-    border: 1px solid #000;
-    float: left;
-}
-
 .nav {
     width: 200px;
     height: 300px;
@@ -39,18 +31,6 @@ body {
     margin-left: 200px;
 }
 
-.main .block {
-    width: 30%;
-    height: 300px;
-    outline: 1px solid black;
-    float: left;
-    margin: 1% 1.5%;
-}
-
-.clearfix {
-    clear: both;
-}
-
 .clr {
     height: 200px;
 }
@@ -59,21 +39,4 @@ body {
     height: 200px;
     background-color: #ccc;
     margin-top: -200px;
-}
-
-@media screen and (min-width: 1200px) {
-    .header {
-        background-color: darkgreen;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .main .block {
-        width: 45%;
-        margin: 2% 2.5%;
-    }
-    
-    .menu li {
-        float: none;
-    }
 }
